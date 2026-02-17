@@ -1,6 +1,15 @@
 # [Hardware Quadrature Signal Mixer](https://www.tindie.com/stores/rowdy_npc)
-*Enables No-Overhead Direct Axis Position Feedback for Closed-Loop Differential Drive Kinematics (Core XY, Robot wrist / ankle joints, etc.)*  
-*... or you may desire to add and subtract whatever pairs of 2-bit incremental gray code signals at up to 12 Mbps ...* 😊
+*Enables No-Overhead Direct Axis Position Feedback for Closed-Loop Differential Drive Kinematics*  
+*(Core XY, Robot wrist / ankle joints, etc.)*
+
+*... or maybe you just so desire to add or subtract whatever pairs of 2-bit incremental gray code signals at up to 12 Mbps ...*
+
+😊
+
+[![Product summary view](./media/AbzMxr_Compact-V002_sc0005.png "Product summary view")](./media/AbzMxr_Compact-V002_sc0005.png)
+
+[![Product cover shot](./media/Front-001.JPG "Product cover shot")](./media/Front-001.JPG)
+
 
 # Your CoreXY doesn't have to compromise on accuracy, nor speed!
 
@@ -41,17 +50,17 @@ Most motion controllers (Duet3 1HCL, ODrive, many industrial servos) expect enco
 
 # Killer Features
 
-## *　1) Ultra\-Simple Setup*
+## *1) Ultra\-Simple Setup*
 
 Standard kit includes all crimp connectors.  
 Works out of the box with most quadrature encoders.
 
-## *　2) No CPU Overhead, Minimal Latency*
+## *2) No CPU Overhead, Minimal Latency*
 
 Hardware\-only processing eliminates software sensor fusion delays.  
 Lab tested up to full spec ー see scope traces below.
 
-## *　3) "Fake" Cartesian Mode (Controller Agnosticism)*
+## *3) "Fake" Cartesian Mode (Controller Agnosticism)*
 
 Trick industrial servo drives and single\-encoder\-per\-axis controllers into thinking they’re driving a standard Cartesian stage: perfect for retrofitting CoreXY mechanics!
 
@@ -60,8 +69,6 @@ Trick industrial servo drives and single\-encoder\-per\-axis controllers into th
 - CoreXY 3D printers with linear encoders (Voron, RatRig, etc.)  
 - Differential drive robot wrists / joints (geared, timing belts, capstan, etc.)  
 - Any coupled kinematic system needing sum / difference feedback  
-
-
 
 [![Typical wiring scheme](./media/typical_wiring_diagram-001-small01.png "Typical wiring scheme")](./media/typical_wiring_diagram-001.png)
 
