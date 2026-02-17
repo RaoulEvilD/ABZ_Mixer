@@ -1,5 +1,6 @@
-# ABZ_Mixer
-*Hardware Quadrature Signal Mixer – Enables No-Overhead Direct Axis Position Feedback for Closed-Loop Differential Drive Kinematics (Core XY, Robot wrist / ankle joints, etc.)*
+# [Hardware Quadrature Signal Mixer](https://www.tindie.com/stores/rowdy_npc)
+*Enables No-Overhead Direct Axis Position Feedback for Closed-Loop Differential Drive Kinematics (Core XY, Robot wrist / ankle joints, etc.)*  
+*... or you may desire to add and subtract whatever pairs of 2-bit incremental gray code signals at up to 12 Mbps ...* 😊
 
 # Your CoreXY doesn't have to compromise on accuracy, nor speed!
 
@@ -109,23 +110,6 @@ Each sold unit is individually tested for error\-free processing of at least 1 G
 
 [![Signal unit test result sample](./media/sample_validation_test_result-001-small01.png "Signal unit test result sample")](./media/sample_validation_test_result-001.png)
 
-# Extras
-
-- Standalone mixer ICs + documentation available on request  
-- Custom speed variants or engineering support: contact via message  
-
-Shipping worldwide from Japan via Tindie.
-
-**_Special Launch Price: $42 for the first 12 units_**  
-(because sometimes the answer really is 42 😉 – after that, regular price $55).
-
-Questions about:  
-- Signals over differential pairs?  
-- Higher/lower input speed variants?  
-- I/O signals galvanic isolation?  
-- Other?  
-
-➡️ Message me!  
-Happy to help with concerns regarding wiring, integration, or shipping.
-
 THANK YOU! For supporting a small hardware maker! 🚀
+
+[![Grab yours on Tindie!](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png "Grab yours on Tindie!")](https://www.tindie.com/stores/rowdy_npc "Grab yours on Tindie!")
