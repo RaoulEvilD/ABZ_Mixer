@@ -6,9 +6,9 @@
 
 😊
 
-[![Product summary view](./media/AbzMxr_Compact-V002_sc0005.png "Product summary view")](./media/AbzMxr_Compact-V002_sc0005.png)
+[![Product summary view](./media/AbzMxr_Compact-V002_sc0005.png "Product summary view")](./media/AbzMxr_Compact-V002_sc0005-02.png)
 
-[![Product cover shot](./media/Front-001.JPG "Product cover shot")](./media/Front-001.JPG)
+[![Product cover shot](./media/Front-001.JPG "Product cover shot")](./media/Front-002.JPG)
 
 
 # Your CoreXY doesn't have to compromise on accuracy, nor speed!
@@ -30,7 +30,7 @@ Plug your axis encoders in → get the clean, low\-latency ABZ signals your moti
 # Key Benefits
 
 - Enables **true closed\-loop with linear encoders** on Duet 1HCL and similar boards  
-- Zero software latency, propagation delay as low as **62 ns @ 5.0 V**  
+- Zero software latency, propagation delay as low as **73 ns @ 5.0 V**  
 - Up to **12.0 Mbps output bandwidth** (frees up to 35+ MIPS in the high\-speed control loops)  
 - Plug\-and\-play: no firmware mods, standard TTL quadrature compatible  
 - Built\-in ACTIVITY LEDs give instant visual feedback (1 blink = 1 step)  
@@ -70,21 +70,22 @@ Trick industrial servo drives and single\-encoder\-per\-axis controllers into th
 - Differential drive robot wrists / joints (geared, timing belts, capstan, etc.)  
 - Any coupled kinematic system needing sum / difference feedback  
 
-[![Typical wiring scheme](./media/typical_wiring_diagram-001-small01.png "Typical wiring scheme")](./media/typical_wiring_diagram-001.png)
+[![CoreXY 3D printer linear encoder implementation example](./media/wiring_diagram_example-001-small01.png "CoreXY 3D printer linear encoder implementation example")](./media/wiring_diagram_example-001.png)
 
 # Specifications
 
 | Parameter                             | Value                                              |
 |---------------------------------------|----------------------------------------------------|
 | Absolute Min. / Max. Supply Voltage   | \-0.5 ~ 7.0 V                                      |
-| Operating Voltage (Vdd)               | 3.3 V ~ 5.0 V ±0.5 V (<100 mA)                     |
-| Min. Propagation Delay                | 62 ns @ 5.0 V / 81 ns @ 3.3 V                      |
-| Min. Output Edge Separation           | 62 ns (18.0 MS/s minimum recommended sampling rate)|
+| Operating Voltage (Vdd)               | 3.3 V ±0.3 V ~ 5.0 V ±0.5 V (<100 mA)              |
+| Min. Propagation Delay                | 73 ns @ 5.0 V / 112 ns @ 3.3 V                     |
+| Min. Output Edge Separation           | 67 ns (17.0 MS/s minimum recommended sampling rate)|
 | Max. Error-free Bitrate\* **per input**    | 6.0 Mbps (185ns minimum recommended input edge separation)   |
 | Output Type                           | Single\-ended TTL push\-pull (<9 mA, 50~65 Ohm)      |
 | Inputs                                | Single\-ended TTL (10 kΩ internal pull\-up to VDD)   |
 | Z Output                              | XOR of Z\_x and Z\_y                                 |
-| Included                              | 4 × CDH\-05 5\-pin plugs \+ 20× CDH\-C crimp contacts  |
+| Operating Temperature Range           | -20°C to 65°C                                        |
+| Included                              | 4 × CDH\-05 5\-pin plugs \+ 20× CDH\-C crimp contacts    |
 
 *\*Error rate < 0.001 ppm*
 
@@ -107,13 +108,11 @@ Trick industrial servo drives and single\-encoder\-per\-axis controllers into th
 Each sold unit is individually tested for error\-free processing of at least 1 Gib of data simultaneously streamed to both ABZ inputs of the mixer at 95% of the Max. Error-free input Bitate at 3.3V.
 
 
-[![Propagation delay figure @3.3V](./media/3.3VPropDelay-02-small01.png "Propagation delay figure @3.3V")](./media/3.3VPropDelay-02.png)
+[![Propagation delay figure @3.3V](./media/3.3VPropDelay-03-small01.png "Propagation delay figure @3.3V")](./media/3.3VPropDelay-03.png)
 
-[![Propagation delay figure @5.0V](./media/5.0VPropDelay-02-small01.png "Propagation delay figure @3.3V")](.media/5.0VPropDelay-02.png)
+[![Propagation delay figure @5.0V](./media/5.0VPropDelay-03-small01.png "Propagation delay figure @5.0V")](./media/5.0VPropDelay-03.png)
 
-[![Minimum output edge separation @3.3V](./media/3.3VOutEdgeSeparation-01-small01.png "Minimum output edge separation @3.3V")](./media/3.3VOutEdgeSeparation-01.png)
-
-[![Minimum output edge separation @3.3V \(eye diagram\)](./media/3.3VOutEdgeSeparation-02-small01.png "Minimum output edge separation @3.3V \(eye diagram\)")](./media/3.3VOutEdgeSeparation-02.png)
+[![Minimum output edge separation @3.3V](./media/3.3VOutEdgeSeparation-03-small01.png "Minimum output edge separation @3.3V")](./media/3.3VOutEdgeSeparation-03.png)
 
 [![Signal unit test result sample](./media/sample_validation_test_result-001-small01.png "Signal unit test result sample")](./media/sample_validation_test_result-001.png)
 
