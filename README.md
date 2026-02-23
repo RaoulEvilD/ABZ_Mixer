@@ -6,9 +6,9 @@
 
 😊
 
-[![Product summary view](./media/AbzMxr_Compact-V002_sc0005.png "Product summary view")](./media/AbzMxr_Compact-V002_sc0005-02.png)
+[![Product summary view](./media/AbzMxr_Compact-V002_sc0005-02.png "Product summary view")](./media/AbzMxr_Compact-V002_sc0005-02.png)
 
-[![Product cover shot](./media/Front-001.JPG "Product cover shot")](./media/Front-002.JPG)
+[![Product cover shot](./media/Front-002.JPG "Product cover shot")](./media/Front-002.JPG)
 
 
 # Your CoreXY doesn't have to compromise on accuracy, nor speed!
