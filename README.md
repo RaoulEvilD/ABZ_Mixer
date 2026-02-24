@@ -105,7 +105,7 @@ Trick industrial servo drives and single\-encoder\-per\-axis controllers into th
 
 # Performance assessment
 
-Each sold unit is individually tested for error\-free processing of at least 1 Gib of data simultaneously streamed to both ABZ inputs of the mixer at 95% of the Max. Error-free input Bitate at 3.3V.
+Each sold unit is individually tested for error\-free processing of at least 1 Gib of data simultaneously streamed to both ABZ inputs of the mixer at the Max. Error-free input Bitate at 3.3V.
 
 
 [![Propagation delay figure @3.3V](./media/3.3VPropDelay-03-small01.png "Propagation delay figure @3.3V")](./media/3.3VPropDelay-03.png)
@@ -114,7 +114,9 @@ Each sold unit is individually tested for error\-free processing of at least 1 G
 
 [![Minimum output edge separation @3.3V](./media/3.3VOutEdgeSeparation-03-small01.png "Minimum output edge separation @3.3V")](./media/3.3VOutEdgeSeparation-03.png)
 
-[![Signal unit test result sample](./media/sample_validation_test_result-001-small01.png "Signal unit test result sample")](./media/sample_validation_test_result-001.png)
+[![Signal unit test result sample @3.3V](./media/3d3_sample_validation_test_result-002-small01.png "Signal unit test result sample")](./media/3d3_sample_validation_test_result-002.png)
+
+[![Signal unit test result sample @5.0V](./media/5d0_sample_validation_test_result-002-small01.png "Signal unit test result sample")](./media/5d0_sample_validation_test_result-002.png)
 
 THANK YOU! For supporting a small hardware maker! 🚀
 
