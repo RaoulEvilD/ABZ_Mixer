@@ -114,7 +114,7 @@ Each sold unit is individually tested for error\-free processing of at least 1 G
 
 [![Minimum output edge separation @3.3V](./media/3.3VOutEdgeSeparation-03-small01.png "Minimum output edge separation @3.3V")](./media/3.3VOutEdgeSeparation-03.png)
 
-[![Signal unit test result sample @3.3V](./media/3d3_sample_validation_test_result-002-small01.png "Signal unit test result sample")](./media/3d3_sample_validation_test_result-002.png)
+[![Signal unit test result sample @3.3V](./media/3d3_sample_validation_test_result-003-small01.png "Signal unit test result sample")](./media/3d3_sample_validation_test_result-003.png)
 
 [![Signal unit test result sample @5.0V](./media/5d0_sample_validation_test_result-002-small01.png "Signal unit test result sample")](./media/5d0_sample_validation_test_result-002.png)
 
